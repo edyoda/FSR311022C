@@ -1,0 +1,46 @@
+Setting up Visual studio code......
+
+You work for a company which take their clients on camping tours. You
+are asked to make a webpage regarding their upcoming trip.
+
+1. Make a fresh webpage
+
+---Body tag---
+2. At the top of the webpage, insert (using the largest HTML heading)
+the following text “A WEEK'S CAMPING TRIP”.
+3. Below the heading insert an image of Mount Everest, resize the
+image’s width to 300 pixels and height to 350 pixels.
+4. Then, nest a paragraph and insert/type some text related to Mount
+Everest. Tip: Use Wikipedia
+5. Insert a horizontal rule line
+6. Insert the second largest HTML heading with the following text
+“What's included”
+7. After that insert an ordered list about the things that the company
+wouldprovide (food, sleeping bags, tents)
+8. Insert a line break
+9. Insert the second largest HTML heading with the following text
+“What we would not be responsible for”
+10. Next that insert an unordered list about the things that the
+company would notbe responsible (Clothing, loss of personal
+belongings)
+11. Insert a horizontal rule line
+12. Insert a line break
+
+----Head tag changes----
+13. Change the title of the page to “Camp with us"
+14. Style the unordered list to come inside the page(gap between bullet and text)
+15. Style the unordered list to display circle/ square bullet
+16. Style the body to the following ways:
+	fontsize - 20px, 
+	fontcolor -#eee,
+	background - #141414;
+	background-image - <any>
+17. Add styles using class in any of the tag.
+18. create a meta tag to make the website refresh every 5sec.
+19. Change the icon in the head of webpage?
+
+---Segregation of tags---
+20. Create a block level element? --- div, li, p, ul, ol, dl, 
+21. Create an inline level element? --- a, b, br, i, img, span, 
+
+
