@@ -1,0 +1,153 @@
+<html>
+
+<head></head>
+<style>
+    body {
+        background-color: #141414;
+        background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEyMCc+Cgk8ZGVmcz4KCQk8cGF0dGVybiBwYXR0ZXJuVW5pdHM9J3VzZXJTcGFjZU9uVXNlJyBpZD0nYycgd2lkdGg9JzYwJyBoZWlnaHQ9JzEyMCcgeD0nMCcgeT0nMCcgdmlld0JveD0nMCAwIDUgMTAnPgoJCQk8cGF0aCBmaWxsLW9wYWNpdHk9JzAnIHN0cm9rZT0nIzI5MjkyOScgc3Ryb2tlLXdpZHRoPScwLjA5JyBkPSdNLTIsMUw3LDEwTS0yLDZMNywxNU0tMiwtNEw3LDUnLz4KCQk8L3BhdHRlcm4+CgkJPHBhdHRlcm4gcGF0dGVyblVuaXRzPSd1c2VyU3BhY2VPblVzZScgaWQ9J2MyJyB3aWR0aD0nNjAnIGhlaWdodD0nMTIwJyB4PScxMDAlJyB5PScwJyB2aWV3Qm94PScwIDAgNSAxMCc+CgkJCTxwYXRoIGZpbGwtb3BhY2l0eT0nMCcgc3Ryb2tlPScjMjkyOTI5JyBzdHJva2Utd2lkdGg9JzAuMDknIGQ9J003LDFMLTIsMTBNNyw2TC0yLDE1TTcsLTRMLTIsNScvPgoJCTwvcGF0dGVybj4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPSc1MCUnIGhlaWdodD0nMTAwJScgZmlsbD0ndXJsKCNjKScvPgoJPHJlY3QgeD0nNTAlJyB3aWR0aD0nNTAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYzIpJy8+Cjwvc3ZnPg==');
+
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        height: 100%;
+        font-family: 'Lato', Helvetica, arial, sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.45;
+        color: #eee;
+        color: rgba(255, 255, 255, .85);
+    }
+
+    #container {
+        padding-top: 50px;
+    }
+
+    #content {
+        max-width: 43em;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    img{
+        opacity:0.1;
+    }
+    h1 {
+        font-size: 4.8em;
+        font-weight: 100;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 2.4em;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    p,
+    li {
+        font-size: 1.7em;
+    }
+
+    a {
+        font-weight: 700;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    p#pleft {
+        max-width: 20em;
+        float: left;
+    }
+
+    p#pright {
+        max-width: 20em;
+        float: left;
+    }
+
+    .fLeft {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .fRight {
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    ul {
+        clear: both;
+    }
+</style>
+
+</html>
+
+<body>
+    <header id="info">
+        <ul>
+            <li class="fLeft"><a href="#about">About</a></li>
+            <li class="fLeft"><a href="#">Home</a></li>
+            <li class="fRight"><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div id="container">
+        <div id="content">
+            <div id="about">
+                <h1>
+                    <div style='float:left; margin-bottom:20px;'>
+                        Hema Goyal
+                        <a target="_blank" download
+                            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASsAAACoCAMAAACPKThEAAAAb1BMVEUAAACgoKDLy8uhoaHKysrOzs6dnZ3Hx8ekpKSampqnp6fR0dGqqqrU1NS6urqpqamwsLB0dHSQkJCBgYHBwcFqamoMDAwfHx99fX2JiYlLS0sqKio/Pz9dXV1XV1c1NTUYGBhPT08xMTEbGxtERETOr2Z7AAAEeElEQVR4nO3bi3qjKACG4UEEUdSYc9MkTdqZ+7/GETyBot2d3Wcw+r9XQL8HCIHmxw8AAAAAAAAAAAAAAAAAAAAAAAAAAACYn6PvAbyOff7L9xBexS9ZxCffg3gROUvJ3vcgXkMsWcrF3fcwXsE9C8pWnF59D2T+zowFbMM52fkeyfwVsm4ltr6HMndvGQuqVkTg4DDpJplqlahWlOPgMOVQtmJ1KyJwcJiwy5iWqFSEJB++BzRfH3UqJqpWVJx9D2munqHst8LBYUTaTKu2FU1w4+C0bVN1rWhy8z2sOfrKZNuKtq0EbhwccqMV0WcG1Yomb74HNj8XI1VQttKnUWXz6Xtoc/OeMaMV16pWQjx9D25eTlFXqvySw7lRCwcHG83MVF2r6rMQBwfD0UhltGoPDl++BzgfV2OvMvarqpU6vse+RzgfhZ2q3dtbCe79avuM9VrFVikVC/d+2i0LFGtekT7+9D3MWTiwfqtw2EpcfA9zDuJqWpmxIqtVdXRI8GCongMHrcx5xZuvO2L1D4bnkAWDWMa86o6kOL6ncrIVju+dbdalCoOJVrj3q54Dv2tFmu863Pd4fcqZ2aqNFXFKjVhtqzU/GKrnwMBoFVapZERoN7HabV6twtU+GOrnQKtV0LbqYpmtKFnpg+EpZFardmLpVnTQiqz43k9Iq1Q3seShmkN9+pJ0lQeHY9ZLpT4JVSspD/qi3R1rs8J7vy82SNUcSMtWwtlqrQeHXLpKqVZqXgnhbqW+66zuwfCSuVMFgfymFUnefQ/+7/qUzgXYtBJibBHqWj99D/+vOoymCpjMVKuqljPXuu79+MhmVe1XZitnrDXd+91HNyv9OVi2SiYnFhWrOTicxxdg3SqZbkXoah4Mi4lW1bm9ajURay0/FHhrNquwZpcqW+VJHas6ObhyreOHAjdmZLJj1alkvtl0rUam1ip+KJCzsM/VyoxlNarRFdz77YapXK02Y1tW04qLxd/7fchhKruVlFmeqlauz0LeIUu/93tGjlRhb1qVrVKrFR2W4sv/hWEafNdK1q2aVTiaqtyyFn3vt3WtwKZVk0q3Sv9BK04X/GD4KGdVZHC3ynSrZhV2rQapOF/w8T23SnWtwv68KrqJNdmKLPbe7xJE0USsupSaV0VhTayRUmoVLvSHAp+sn6rLZbTKnK0c609b5v/7nQ6uVJG1BrtWhbkIB63iFl/kvR8ZrMC2VeBslY61ik1kgfd+R3cqHeu/tIr5w/ef9n+7jpQa7FfZdKt4gC/u+F6MtYpGWhV2KzKWqoy1sHu//dgKNHYsV6ukbjU+rdSWtagHw2taHIL6UT78N62E3cqYTPooqifc7rLAE+nz8Xk/bi8xLctFw39nGG9l32DFu8v+bXu8f7zfHut4VT1dbx/H7X5HNkV+CHSilm5Vfc/ZJIJyo8716Xvgvj3Pj/f7dn+J01yFU1Pnsq/ifJ2fa7hZ/0On80/UAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPhTvwESrlNE7Dn1xwAAAABJRU5ErkJggg==">
+                            <img download
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASsAAACoCAMAAACPKThEAAAAb1BMVEUAAACgoKDLy8uhoaHKysrOzs6dnZ3Hx8ekpKSampqnp6fR0dGqqqrU1NS6urqpqamwsLB0dHSQkJCBgYHBwcFqamoMDAwfHx99fX2JiYlLS0sqKio/Pz9dXV1XV1c1NTUYGBhPT08xMTEbGxtERETOr2Z7AAAEeElEQVR4nO3bi3qjKACG4UEEUdSYc9MkTdqZ+7/GETyBot2d3Wcw+r9XQL8HCIHmxw8AAAAAAAAAAAAAAAAAAAAAAAAAAACYn6PvAbyOff7L9xBexS9ZxCffg3gROUvJ3vcgXkMsWcrF3fcwXsE9C8pWnF59D2T+zowFbMM52fkeyfwVsm4ltr6HMndvGQuqVkTg4DDpJplqlahWlOPgMOVQtmJ1KyJwcJiwy5iWqFSEJB++BzRfH3UqJqpWVJx9D2munqHst8LBYUTaTKu2FU1w4+C0bVN1rWhy8z2sOfrKZNuKtq0EbhwccqMV0WcG1Yomb74HNj8XI1VQttKnUWXz6Xtoc/OeMaMV16pWQjx9D25eTlFXqvySw7lRCwcHG83MVF2r6rMQBwfD0UhltGoPDl++BzgfV2OvMvarqpU6vse+RzgfhZ2q3dtbCe79avuM9VrFVikVC/d+2i0LFGtekT7+9D3MWTiwfqtw2EpcfA9zDuJqWpmxIqtVdXRI8GCongMHrcx5xZuvO2L1D4bnkAWDWMa86o6kOL6ncrIVju+dbdalCoOJVrj3q54Dv2tFmu863Pd4fcqZ2aqNFXFKjVhtqzU/GKrnwMBoFVapZERoN7HabV6twtU+GOrnQKtV0LbqYpmtKFnpg+EpZFardmLpVnTQiqz43k9Iq1Q3seShmkN9+pJ0lQeHY9ZLpT4JVSspD/qi3R1rs8J7vy82SNUcSMtWwtlqrQeHXLpKqVZqXgnhbqW+66zuwfCSuVMFgfymFUnefQ/+7/qUzgXYtBJibBHqWj99D/+vOoymCpjMVKuqljPXuu79+MhmVe1XZitnrDXd+91HNyv9OVi2SiYnFhWrOTicxxdg3SqZbkXoah4Mi4lW1bm9ajURay0/FHhrNquwZpcqW+VJHas6ObhyreOHAjdmZLJj1alkvtl0rUam1ip+KJCzsM/VyoxlNarRFdz77YapXK02Y1tW04qLxd/7fchhKruVlFmeqlauz0LeIUu/93tGjlRhb1qVrVKrFR2W4sv/hWEafNdK1q2aVTiaqtyyFn3vt3WtwKZVk0q3Sv9BK04X/GD4KGdVZHC3ynSrZhV2rQapOF/w8T23SnWtwv68KrqJNdmKLPbe7xJE0USsupSaV0VhTayRUmoVLvSHAp+sn6rLZbTKnK0c609b5v/7nQ6uVJG1BrtWhbkIB63iFl/kvR8ZrMC2VeBslY61ik1kgfd+R3cqHeu/tIr5w/ef9n+7jpQa7FfZdKt4gC/u+F6MtYpGWhV2KzKWqoy1sHu//dgKNHYsV6ukbjU+rdSWtagHw2taHIL6UT78N62E3cqYTPooqifc7rLAE+nz8Xk/bi8xLctFw39nGG9l32DFu8v+bXu8f7zfHut4VT1dbx/H7X5HNkV+CHSilm5Vfc/ZJIJyo8716Xvgvj3Pj/f7dn+J01yFU1Pnsq/ifJ2fa7hZ/0On80/UAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPhTvwESrlNE7Dn1xwAAAABJRU5ErkJggg==" /></a>
+
+                    </div>
+                </h1>
+                <h3 style='clear:both' class="subhead">
+                    <a target="_parent"
+                        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASsAAACoCAMAAACPKThEAAAAb1BMVEUAAACgoKDLy8uhoaHKysrOzs6dnZ3Hx8ekpKSampqnp6fR0dGqqqrU1NS6urqpqamwsLB0dHSQkJCBgYHBwcFqamoMDAwfHx99fX2JiYlLS0sqKio/Pz9dXV1XV1c1NTUYGBhPT08xMTEbGxtERETOr2Z7AAAEeElEQVR4nO3bi3qjKACG4UEEUdSYc9MkTdqZ+7/GETyBot2d3Wcw+r9XQL8HCIHmxw8AAAAAAAAAAAAAAAAAAAAAAAAAAACYn6PvAbyOff7L9xBexS9ZxCffg3gROUvJ3vcgXkMsWcrF3fcwXsE9C8pWnF59D2T+zowFbMM52fkeyfwVsm4ltr6HMndvGQuqVkTg4DDpJplqlahWlOPgMOVQtmJ1KyJwcJiwy5iWqFSEJB++BzRfH3UqJqpWVJx9D2munqHst8LBYUTaTKu2FU1w4+C0bVN1rWhy8z2sOfrKZNuKtq0EbhwccqMV0WcG1Yomb74HNj8XI1VQttKnUWXz6Xtoc/OeMaMV16pWQjx9D25eTlFXqvySw7lRCwcHG83MVF2r6rMQBwfD0UhltGoPDl++BzgfV2OvMvarqpU6vse+RzgfhZ2q3dtbCe79avuM9VrFVikVC/d+2i0LFGtekT7+9D3MWTiwfqtw2EpcfA9zDuJqWpmxIqtVdXRI8GCongMHrcx5xZuvO2L1D4bnkAWDWMa86o6kOL6ncrIVju+dbdalCoOJVrj3q54Dv2tFmu863Pd4fcqZ2aqNFXFKjVhtqzU/GKrnwMBoFVapZERoN7HabV6twtU+GOrnQKtV0LbqYpmtKFnpg+EpZFardmLpVnTQiqz43k9Iq1Q3seShmkN9+pJ0lQeHY9ZLpT4JVSspD/qi3R1rs8J7vy82SNUcSMtWwtlqrQeHXLpKqVZqXgnhbqW+66zuwfCSuVMFgfymFUnefQ/+7/qUzgXYtBJibBHqWj99D/+vOoymCpjMVKuqljPXuu79+MhmVe1XZitnrDXd+91HNyv9OVi2SiYnFhWrOTicxxdg3SqZbkXoah4Mi4lW1bm9ajURay0/FHhrNquwZpcqW+VJHas6ObhyreOHAjdmZLJj1alkvtl0rUam1ip+KJCzsM/VyoxlNarRFdz77YapXK02Y1tW04qLxd/7fchhKruVlFmeqlauz0LeIUu/93tGjlRhb1qVrVKrFR2W4sv/hWEafNdK1q2aVTiaqtyyFn3vt3WtwKZVk0q3Sv9BK04X/GD4KGdVZHC3ynSrZhV2rQapOF/w8T23SnWtwv68KrqJNdmKLPbe7xJE0USsupSaV0VhTayRUmoVLvSHAp+sn6rLZbTKnK0c609b5v/7nQ6uVJG1BrtWhbkIB63iFl/kvR8ZrMC2VeBslY61ik1kgfd+R3cqHeu/tIr5w/ef9n+7jpQa7FfZdKt4gC/u+F6MtYpGWhV2KzKWqoy1sHu//dgKNHYsV6ukbjU+rdSWtagHw2taHIL6UT78N62E3cqYTPooqifc7rLAE+nz8Xk/bi8xLctFw39nGG9l32DFu8v+bXu8f7zfHut4VT1dbx/H7X5HNkV+CHSilm5Vfc/ZJIJyo8716Xvgvj3Pj/f7dn+J01yFU1Pnsq/ifJ2fa7hZ/0On80/UAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPhTvwESrlNE7Dn1xwAAAABJRU5ErkJggg==">
+                        Hema</a> is an enthusiastic, young,
+                    self-taught web applications developer.
+                </h3>
+                <p id='pleft'>
+                    She does freelance work, writes for <a href="https://css-tricks.com/css-animation-tricks/">CSS</a>
+                    <a href="https://css-tricks.com/controlling-css-animations-transitions-javascript/">Tricks</a>,
+                    worked
+                    at <a href="http://deltadatasoft.com/">Delta Data Software</a> as a front-end developer, and is
+                    continuously working on personal projects to up her game.
+                </p>
+                <p id='pright'>
+                    Look for some of his work &amp; experiments on <a media="print and (resolution:300dpi)"
+                        href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_type">CodePen</a>, <a
+                        href="http://stackoverflow.com/users/2065702/zeaklous">StackOverflow</a>, <a
+                        href="https://cssdeck.com/user/Zeaklous">CSS Deck</a>, or a bit of her recent work below.
+                </p>
+                <ul>
+                    <li><a href="https://cssdeck.com/labs/css-only-full-page-slider">CSS Only Full Page Slider</a></li>
+                    <li><a href="https://codepen.io/Zeaklous/pen/alpEm">CSS3 Circular Questionnaire (Plugin in
+                            development)</a></li>
+                    <li><a href="https://zachsaucier.com/TumblrBook.html">TumblrBook</a></li>
+                </ul>
+                <p>
+
+                    Feel free to contact her at <a href="#info">hemanshugoyal1995[at]gmail.com </a>if you'd like
+                    for her to work for you!
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
